@@ -19,5 +19,3 @@ jobs:
         server: ${{ secrets.FTP_SERVER }} # changed
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-root: path/to/your/code
-        server-dir: /path/to/destination
