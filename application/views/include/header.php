@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?=base_url('uploads/'.$site[0]->favicon);?>">
-    <title><?=$title;?></title>
+    <title>Welcome <?=$title;?></title>
     <!-- Custom CSS --><!-- plugin scripts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,800%7CSatisfy&display=swap">
     <link rel="stylesheet" href="<?=base_url('assets/css/animate.min.css');?>">
