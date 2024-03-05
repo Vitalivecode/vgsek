@@ -14,10 +14,10 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Deploy to server
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }} # changed
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ secrets.FTP_SERVER }} # changed
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-root: path/to/your/code
         server-dir: /path/to/destination
