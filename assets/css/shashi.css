@@ -1,0 +1,161 @@
+
+
+.stricked-menu{
+height: 86px !important;
+}
+
+.table td, .table th {
+  padding: .3em .7em !important;
+}
+
+.criterion li{
+    list-style:none;
+    margin-top:8px;
+}
+
+.criterion li h5{
+/*    background:#e3620c;
+    color: #fff !important;     */
+    padding: 5px 10px;
+}
+.topic li h6{
+    background:#245f89;
+    color: #fff !important;
+    padding: 5px 10px;
+}
+.topic-info li{
+    background:#dee9fe !important;
+    padding: 5px 10px;
+    margin-bottom:6px;
+}
+.topic-info li a{
+    color:#fff !important;
+}
+.topic li a{
+    color:#fff !important;
+}
+.topic li ul li h6{
+    padding: 4px 10px !important;
+    background: #dee9fe !important;
+}
+.topic li ul li ul li h6{
+    padding: 10px !important;
+    background: #ff9e5eba !important;
+}
+.topic li ul{padding-left: 0px !important;}
+
+
+
+.h150{
+    margin-bottom: 15px;
+    height: 150px;
+}
+.team-one__content{
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+.text-white{color:#fff !important;}
+.whats_new{
+    margin-top: 20px !important;
+    font-size: 24px !important;
+    padding-left:20px;
+}
+.notice-board ul li{
+    border-bottom: 1px #ccc solid;
+    border-top: 1px #ccc solid;
+    width: 90%;
+}
+.no-padding{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.banner-one .container {
+    position: relative;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.banner-one__cta{
+    padding: 20px 0 !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+
+
+.header-navigation ul.navigation-box > li.current > a, .header-navigation ul.navigation-box > li:hover > a {
+    color: #fff !important;
+    background: #022c46 !important;
+    padding: 6px 10px !important;
+}
+
+
+
+.line{border-top: 2px solid #f1f1f1; margin: 20px 0px;}
+body{font-size:14px !important;}
+.pricing-one__price {    font-size: 38px !important;}
+.gb-team{padding-top: 20px !important; padding-bottom: 0px !important;}
+.gb-team-pic{margin-top: 60px !important;}
+.txt-j{text-align: justify !important;}
+.text-quote{font-size: 26px; margin-top: 20px; margin-bottom: 20px; color: #012237; font-weight: 600;}
+
+.mt-30{margin-top:50px;}
+.vgourp_title{font-size:42px !important;}
+.header-navigation ul.navigation-box > li + li {
+    margin-left: 5px !important;
+}
+.header-navigation ul.navigation-box > li > a{padding: 6px 6px !important;}
+.header-navigation .main-navigation{padding-right:0px !important;}
+.footer-widget__course-list li + li {    margin-top: 16px !important;}
+.text-vgsek{color:#ea1821;}
+/*  .block-title__title{font-size: 58px !important;}    */
+.banner-one__title {     font-size: 72px; line-height: 72px;}
+.notice-board{padding: 30px 0px 20px 20px !important;}
+
+
+.upper{text-transform:uppercase;}
+.inner-banner{background:url(../../assets/images/departments/banners/banner-01.jpg);}
+.table-ol{line-height:1.7;}
+.faculty-img{border: 2px solid #ccc !important; padding: 4px !important;}
+.course li{list-style: none !important;}
+.course{margin-left:-20px;}
+.eresource-icon{text-align: center; display: inline-grid;}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #e3620c;
+    border-color: #dee2e6 #fff #dee2e6 #dee2e6 !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{    border-color: #dee2e6 #fff #dee2e6 #dee2e6 !important;}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem !important;
+    border-top-right-radius: 0px;
+}
+
+.contact-one input, .contact-one textarea{padding-left:20px !important;}
+
+.footer-widget__gallery-list li{flex:auto !important;}
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 992px){
+    .topbar-one__left{display:none !important;}
+    .topbar-one__right a + a, .topbar-one__left a + a{margin-left: 12px important; font-size: 10px important;}
+}
+@media (min-width: 993px) and (max-width: 1024px) {
+    .topbar-one__right a + a, .topbar-one__left a + a{margin-left: 10px important; font-size: 11px important;}
+}
+
+@media only screen and (max-width: 481px) 
+{
+    .topbar-one__left{display:none !important;}
+    .topbar-one__right a + a, .topbar-one__left a + a{margin-left: 12px important; font-size: 10px important;}
+}
+
+@media (max-width: 1199px){
+.header-navigation .container .logo-box {  padding-left: 0px !important; }
+}
