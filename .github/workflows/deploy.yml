@@ -7,19 +7,17 @@ on:
 
 jobs:
   deploy:
+    name: Deploy website every commit
     runs-on: ubuntu-latest
-
     steps:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '20' # specify the Node.js version you want to use
-      
     - name: Checkout code
       uses: actions/checkout@v4
-      
     - name: Deploy to server
-      uses: SamKirkland/FTP-Deploy-Action@4.3.5
+      uses: ./
       with:
         server: ${{ secrets.FTP_SERVER }} # changed
         username: ${{ secrets.FTP_USERNAME }}
